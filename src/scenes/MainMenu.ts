@@ -67,11 +67,11 @@ export default class MainMenu extends Phaser.Scene {
     create ()
     {
 
-        this.input.once('pointerdown', () => {
+        //this.input.once('pointerdown', () => {
 
-            this.scene.start('Game');
+            //this.scene.start('Game');
 
-        });
+        //});
 
         this.editorCreate();
     }
